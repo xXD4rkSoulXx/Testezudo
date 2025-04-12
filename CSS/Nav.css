@@ -1,0 +1,158 @@
+nav {
+  width: 100%;
+  padding-top: 20.51px;
+  padding-left: 100px;
+  position: Fixed;
+  z-index: 1;
+  color: White;
+  display: Flex;
+  justify-content: Space-Between;
+  align-items: Center;
+}
+
+nav img.logo-tablet-mobile {
+  display: None;
+}
+
+nav .open-menu {
+  display: None;
+}
+
+nav ul {
+  list-style-type: None;
+  width: 368px;
+  height: 67px;
+  background-color: #19272D;
+  display: Flex;
+  justify-content: Space-Evenly;
+  align-items: Center;
+}
+
+nav ul li {
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: UpperCase;
+}
+
+nav ul li.close-menu {
+  display: None;
+}
+
+nav ul li a {
+  text-decoration: None;
+  color: White;
+}
+
+nav ul li a:hover {
+  cursor: Pointer;
+}
+
+@media screen and (max-width: 1919px) {
+  nav img {
+	width: 100px;
+	height: Auto;
+  }
+  
+  nav ul {
+    width: 280px;
+    height: 50px;
+  }
+  
+  nav ul li {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 949px) {
+  nav {
+	padding: 0 40px;
+	height: 80px;
+	background-color: #19272D;
+  }
+  
+  nav img.logo-pc {
+	display: None;
+  }
+  
+  nav img.logo-tablet-mobile {
+	display: Block;
+	width: 70px;
+	height: Auto;
+  }
+  
+  nav ul {
+	width: 300px;
+	justify-content: Center;
+    gap: 30px;
+  }
+  
+  nav ul li {
+	font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  nav {
+	height: 200px;
+	position: Absolute;
+	padding: 24px;
+	background-color: Transparent;
+  }
+  
+  nav .logo-zone {
+	width: 102px;
+	height: 102px;
+	margin-top: -70px;
+	padding: 23px 16px;
+	border-radius: 100%;
+	background-color: #192327;
+  }
+  
+  nav .open-menu {
+    display: Block;
+	width: 36px;
+	height: 36px;
+	position: Fixed;
+	top: 34px;
+	right: 21px;
+	padding: 9px 11px;
+	font-size: 16px;
+	border-radius: 100%;
+	background-color: #192327;
+  }
+  
+  nav .menu-zone {
+	display: None;
+	position: Fixed;
+	top: 34px;
+	right: 21px;
+  }
+  
+  nav ul {
+	width: 160px;
+	height: 160px;
+	top: 0px;
+	right: 0px;
+	border-radius: 18px;
+	flex-direction: Column;
+	justify-content: Center;
+	align-items: Center;
+	gap: 10px;
+  }
+  
+  nav ul li {
+	font-size: 18px;
+  }
+  
+  nav ul li.close-menu {
+    display: Block;
+	position: Absolute;
+	top: 10px;
+	right: 10px;
+    align-self: Flex-End;
+  }
+  
+  nav ul li.separator {
+    rotate: 90deg;
+  }
+}

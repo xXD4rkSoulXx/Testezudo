@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: Border-Box;
+  font-family: 'Raleway', Arial;
+}
+
+html {
+  scroll-behavior: Smooth;
+}
+
+body {
+  background-image: Linear-Gradient(90deg, #EFEFEF 0%, #EDEDED 100%);
+}
+
+body::-webkit-scrollbar {
+  display: None;
+}
+
+section {
+  padding: 100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gotham', Arial;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 100px;
+  letter-spacing: -3px;
+  line-height: 0.9;
+  color: #2E606F;
+  text-transform: LowerCase;
+}
+
+@media screen and (max-width: 1919px) {
+  section {
+    padding: 40px;
+  }
+  
+  h1 {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 949px) {
+  h1 {
+	font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  section {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+}
