@@ -38,6 +38,7 @@
   display: None;
   width: 478px;
   font-weight: 300;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 1919px) {
