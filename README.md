@@ -1,2 +1,2 @@
 # Testezudo
-Tou a ver como o GitHub funciona :3
+Este repositório é apenas para hospedar sites e testar em outros dispositivos
