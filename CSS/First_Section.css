@@ -8,7 +8,7 @@
   display: Flex;
   flex-direction: Column;
   justify-content: Center;
-  gap: 113px;
+  gap: 1000px;
 }
 
 .first-section h2 {
