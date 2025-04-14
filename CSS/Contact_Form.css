@@ -1,0 +1,111 @@
+.contact-form {
+  width: 726px;
+  height: 367px;
+  position: Fixed;
+  bottom: 300px;
+  left: 600px;
+  padding: 25px 40px;
+  border-radius: 13px;
+  box-shadow: 13px 13px 13px #00000029;
+  background-color: White;
+  display: None;
+  flex-direction: Column;
+  align-items: Center;
+  gap: 10px;
+}
+
+.contact-form form {
+  display: Flex;
+  flex-wrap: Wrap;
+  align-items: Center;
+  gap: 10px;
+}
+
+.contact-form h6 {
+  font-family: 'Raleway', Arial;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: UpperCase;
+  color: #2F5462;
+}
+
+input, textarea {
+  padding: 16px;
+  font-size: 18px;
+  border: None;
+  background-color: #EAEAEA;
+  color: #2E606F;
+}
+
+input::placeholder,  textarea::placeholder{
+  color: #2E606F;
+}
+
+input[type=Text] {
+  width: 647px;
+  height: 47px;
+}
+
+input[type=Email], input[type=Number] {
+  width: 317px;
+  height: 47px;
+}
+
+textarea {
+  width: 647px;
+  height: 94px;
+  resize: None;
+}
+
+button {
+  width: 94px;
+  height: 34px;
+  margin: Auto;
+  font-size: 13px;
+  text-transform: UpperCase;
+  border-radius: 24px;
+  background-color: #2E606F;
+  color: #FCFCFC;
+}
+
+button:hover {
+  cursor: Pointer;
+}
+
+@media screen and (max-width: 1919px) {
+  .contact-form {
+	bottom: 110px;
+	left: 200px;
+  }
+}
+
+@media screen and (max-width: 949px) {
+  .contact-form {
+	width: 700px;
+	bottom: 100px;
+	left: 0px;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .contact-form {
+	width: 352px;
+    height: 428px;
+  }
+  
+  .contact-form form {
+    flex-wrap: No-Wrap;
+	justify-content: Center;
+    gap: 20px;
+  }
+  
+  input[type=Text], input[type=Email], input[type=Number], textarea {
+	width: 273px;
+	height: 37px;
+	font-size: 14px;
+  }
+  
+  textarea {
+	height: 94px;
+  }
+}
